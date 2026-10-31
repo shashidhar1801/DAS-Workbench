@@ -1,0 +1,437 @@
+{
+  "timezone": {
+    "version": "0.3.4.post1",
+    "frozen": true,
+    "cases": [
+      {
+        "case": "A1",
+        "input_origin": "2022-01-01T12:34:56.125Z",
+        "observed_origin": "2022-01-01T12:34:56.125Z",
+        "clock": "Explicit timezone-aware timestamp attributes",
+        "expected_clock": "Explicit timezone-aware timestamp attributes",
+        "origin_preserved": true,
+        "intervals": [
+          {
+            "bounds": [
+              1,
+              101
+            ],
+            "snapshot": {
+              "start": 1,
+              "end": 101,
+              "origin": "2022-01-01T12:34:56.125Z",
+              "dt": "0.001",
+              "n": 2048,
+              "timestamp": "2022-01-01T12:34:56.126000000Z",
+              "duration_display": "0.100000000",
+              "duration_exact": "0.100"
+            },
+            "unchanged_reapplications": 10
+          },
+          {
+            "bounds": [
+              1000,
+              1100
+            ],
+            "snapshot": {
+              "start": 1000,
+              "end": 1100,
+              "origin": "2022-01-01T12:34:56.125Z",
+              "dt": "0.001",
+              "n": 2048,
+              "timestamp": "2022-01-01T12:34:57.125000000Z",
+              "duration_display": "0.100000000",
+              "duration_exact": "0.100"
+            },
+            "unchanged_reapplications": 10
+          },
+          {
+            "bounds": [
+              1948,
+              2048
+            ],
+            "snapshot": {
+              "start": 1948,
+              "end": 2048,
+              "origin": "2022-01-01T12:34:56.125Z",
+              "dt": "0.001",
+              "n": 2048,
+              "timestamp": "2022-01-01T12:34:58.073000000Z",
+              "duration_display": "0.100000000",
+              "duration_exact": "0.100"
+            },
+            "unchanged_reapplications": 10
+          }
+        ],
+        "quantity": "Unqualified native amplitude",
+        "unit": "Pa",
+        "calibration": "Unknown; no verified conversion or calibration provenance",
+        "pressure_eligible": false,
+        "decoded_dtype": "float32",
+        "decoded_sha256": "c7c0a32d5f43b1b6ec256a55fc5c1bf2d789a5a28d188cd3b69f50866dc16482"
+      },
+      {
+        "case": "A2",
+        "input_origin": "2022-01-01T12:34:56.125+00:00",
+        "observed_origin": "2022-01-01T12:34:56.125+00:00",
+        "clock": "Explicit timezone-aware timestamp attributes",
+        "expected_clock": "Explicit timezone-aware timestamp attributes",
+        "origin_preserved": true,
+        "intervals": [
+          {
+            "bounds": [
+              1,
+              101
+            ],
+            "snapshot": {
+              "start": 1,
+              "end": 101,
+              "origin": "2022-01-01T12:34:56.125+00:00",
+              "dt": "0.001",
+              "n": 2048,
+              "timestamp": "2022-01-01T12:34:56.126000000+00:00",
+              "duration_display": "0.100000000",
+              "duration_exact": "0.100"
+            },
+            "unchanged_reapplications": 10
+          },
+          {
+            "bounds": [
+              1000,
+              1100
+            ],
+            "snapshot": {
+              "start": 1000,
+              "end": 1100,
+              "origin": "2022-01-01T12:34:56.125+00:00",
+              "dt": "0.001",
+              "n": 2048,
+              "timestamp": "2022-01-01T12:34:57.125000000+00:00",
+              "duration_display": "0.100000000",
+              "duration_exact": "0.100"
+            },
+            "unchanged_reapplications": 10
+          },
+          {
+            "bounds": [
+              1948,
+              2048
+            ],
+            "snapshot": {
+              "start": 1948,
+              "end": 2048,
+              "origin": "2022-01-01T12:34:56.125+00:00",
+              "dt": "0.001",
+              "n": 2048,
+              "timestamp": "2022-01-01T12:34:58.073000000+00:00",
+              "duration_display": "0.100000000",
+              "duration_exact": "0.100"
+            },
+            "unchanged_reapplications": 10
+          }
+        ],
+        "quantity": "Unqualified native amplitude",
+        "unit": "Pa",
+        "calibration": "Unknown; no verified conversion or calibration provenance",
+        "pressure_eligible": false,
+        "decoded_dtype": "float32",
+        "decoded_sha256": "c7c0a32d5f43b1b6ec256a55fc5c1bf2d789a5a28d188cd3b69f50866dc16482"
+      },
+      {
+        "case": "A3",
+        "input_origin": "2022-01-01T12:34:56.125+08:00",
+        "observed_origin": "2022-01-01T12:34:56.125+08:00",
+        "clock": "Explicit timezone-aware timestamp attributes",
+        "expected_clock": "Explicit timezone-aware timestamp attributes",
+        "origin_preserved": true,
+        "intervals": [
+          {
+            "bounds": [
+              1,
+              101
+            ],
+            "snapshot": {
+              "start": 1,
+              "end": 101,
+              "origin": "2022-01-01T12:34:56.125+08:00",
+              "dt": "0.001",
+              "n": 2048,
+              "timestamp": "2022-01-01T12:34:56.126000000+08:00",
+              "duration_display": "0.100000000",
+              "duration_exact": "0.100"
+            },
+            "unchanged_reapplications": 10
+          },
+          {
+            "bounds": [
+              1000,
+              1100
+            ],
+            "snapshot": {
+              "start": 1000,
+              "end": 1100,
+              "origin": "2022-01-01T12:34:56.125+08:00",
+              "dt": "0.001",
+              "n": 2048,
+              "timestamp": "2022-01-01T12:34:57.125000000+08:00",
+              "duration_display": "0.100000000",
+              "duration_exact": "0.100"
+            },
+            "unchanged_reapplications": 10
+          },
+          {
+            "bounds": [
+              1948,
+              2048
+            ],
+            "snapshot": {
+              "start": 1948,
+              "end": 2048,
+              "origin": "2022-01-01T12:34:56.125+08:00",
+              "dt": "0.001",
+              "n": 2048,
+              "timestamp": "2022-01-01T12:34:58.073000000+08:00",
+              "duration_display": "0.100000000",
+              "duration_exact": "0.100"
+            },
+            "unchanged_reapplications": 10
+          }
+        ],
+        "quantity": "Unqualified native amplitude",
+        "unit": "Pa",
+        "calibration": "Unknown; no verified conversion or calibration provenance",
+        "pressure_eligible": false,
+        "decoded_dtype": "float32",
+        "decoded_sha256": "c7c0a32d5f43b1b6ec256a55fc5c1bf2d789a5a28d188cd3b69f50866dc16482"
+      },
+      {
+        "case": "A4",
+        "input_origin": "2022-01-01T12:34:56.125-05:00",
+        "observed_origin": "2022-01-01T12:34:56.125-05:00",
+        "clock": "Explicit timezone-aware timestamp attributes",
+        "expected_clock": "Explicit timezone-aware timestamp attributes",
+        "origin_preserved": true,
+        "intervals": [
+          {
+            "bounds": [
+              1,
+              101
+            ],
+            "snapshot": {
+              "start": 1,
+              "end": 101,
+              "origin": "2022-01-01T12:34:56.125-05:00",
+              "dt": "0.001",
+              "n": 2048,
+              "timestamp": "2022-01-01T12:34:56.126000000-05:00",
+              "duration_display": "0.100000000",
+              "duration_exact": "0.100"
+            },
+            "unchanged_reapplications": 10
+          },
+          {
+            "bounds": [
+              1000,
+              1100
+            ],
+            "snapshot": {
+              "start": 1000,
+              "end": 1100,
+              "origin": "2022-01-01T12:34:56.125-05:00",
+              "dt": "0.001",
+              "n": 2048,
+              "timestamp": "2022-01-01T12:34:57.125000000-05:00",
+              "duration_display": "0.100000000",
+              "duration_exact": "0.100"
+            },
+            "unchanged_reapplications": 10
+          },
+          {
+            "bounds": [
+              1948,
+              2048
+            ],
+            "snapshot": {
+              "start": 1948,
+              "end": 2048,
+              "origin": "2022-01-01T12:34:56.125-05:00",
+              "dt": "0.001",
+              "n": 2048,
+              "timestamp": "2022-01-01T12:34:58.073000000-05:00",
+              "duration_display": "0.100000000",
+              "duration_exact": "0.100"
+            },
+            "unchanged_reapplications": 10
+          }
+        ],
+        "quantity": "Unqualified native amplitude",
+        "unit": "Pa",
+        "calibration": "Unknown; no verified conversion or calibration provenance",
+        "pressure_eligible": false,
+        "decoded_dtype": "float32",
+        "decoded_sha256": "c7c0a32d5f43b1b6ec256a55fc5c1bf2d789a5a28d188cd3b69f50866dc16482"
+      },
+      {
+        "case": "A5",
+        "input_origin": "2022-01-01T12:34:56.125",
+        "observed_origin": "2022-01-01T12:34:56.125",
+        "clock": "Recording clock; timezone and external synchronization not established",
+        "expected_clock": "Recording clock; timezone and external synchronization not established",
+        "origin_preserved": true,
+        "intervals": [
+          {
+            "bounds": [
+              1,
+              101
+            ],
+            "snapshot": {
+              "start": 1,
+              "end": 101,
+              "origin": "2022-01-01T12:34:56.125",
+              "dt": "0.001",
+              "n": 2048,
+              "timestamp": "2022-01-01T12:34:56.126000000",
+              "duration_display": "0.100000000",
+              "duration_exact": "0.100"
+            },
+            "unchanged_reapplications": 10
+          },
+          {
+            "bounds": [
+              1000,
+              1100
+            ],
+            "snapshot": {
+              "start": 1000,
+              "end": 1100,
+              "origin": "2022-01-01T12:34:56.125",
+              "dt": "0.001",
+              "n": 2048,
+              "timestamp": "2022-01-01T12:34:57.125000000",
+              "duration_display": "0.100000000",
+              "duration_exact": "0.100"
+            },
+            "unchanged_reapplications": 10
+          },
+          {
+            "bounds": [
+              1948,
+              2048
+            ],
+            "snapshot": {
+              "start": 1948,
+              "end": 2048,
+              "origin": "2022-01-01T12:34:56.125",
+              "dt": "0.001",
+              "n": 2048,
+              "timestamp": "2022-01-01T12:34:58.073000000",
+              "duration_display": "0.100000000",
+              "duration_exact": "0.100"
+            },
+            "unchanged_reapplications": 10
+          }
+        ],
+        "quantity": "Unqualified native amplitude",
+        "unit": "Pa",
+        "calibration": "Unknown; no verified conversion or calibration provenance",
+        "pressure_eligible": false,
+        "decoded_dtype": "float32",
+        "decoded_sha256": "c7c0a32d5f43b1b6ec256a55fc5c1bf2d789a5a28d188cd3b69f50866dc16482"
+      }
+    ],
+    "checked_new_labels": true,
+    "total_unchanged_reapplications": 150
+  },
+  "phase_error": {
+    "passed": true,
+    "version": "0.3.4.post1",
+    "frozen": true,
+    "qt_platform": "offscreen",
+    "qt_style": "fusion",
+    "executable": "<workspace>/outputs/DAS_Workbench_Public_Release_2026-10-31/local/dist/DAS Workbench.app/Contents/MacOS/DAS Workbench",
+    "executable_sha256": "a45b71c93c6a35523f99edd19f5f5f929733670cacafc25e08ff1417cc91dd64",
+    "worker_error": {
+      "actual_worker": "result reader on nonexistent fixture path",
+      "actual_terminal_observed": true,
+      "actual_MainWindow_poll": true,
+      "default_status": "The operation could not be completed. Open Error details for diagnostic information.",
+      "no_raw_paths_or_exception_text": true,
+      "no_automatic_modal_dialog": true,
+      "metadata_content_unchanged": true,
+      "scientific_tab_not_forced": true,
+      "complete_diagnostic_sha256": "e050bd9bd0fd90fbaa98cf5af303e53dec929f79a223da8f238249fc1626218a",
+      "process_joined": true,
+      "current_task_cleared": true,
+      "controls_reenabled": true,
+      "pause_cancel_controls_restored": true,
+      "job_refresh_called": true,
+      "next_job_scheduled": true
+    },
+    "explicit_diagnostics": {
+      "read_only_plain_text": true,
+      "original_message_retained": true,
+      "complete_traceback_retained": true,
+      "saved_diagnostic_exact_bytes": true,
+      "saved_sha256": "e050bd9bd0fd90fbaa98cf5af303e53dec929f79a223da8f238249fc1626218a",
+      "action": "Explicit Error details -> Save diagnostic report; file destination supplied by automation"
+    },
+    "recovery": {
+      "task": "ordinary deep catalogue scan of three synthetic HDF5 files",
+      "status": "3 recordings \u00b7 1 runs \u00b7 0 import errors",
+      "completed": true,
+      "last_error_identified_as_historical": true
+    },
+    "direct_handler": {
+      "raw_exception_summary": "The operation could not be completed. Open Error details for diagnostic information.",
+      "raw_exception_and_traceback_preserved": true,
+      "trusted_validation": "Calculate or open a saved result before exporting.",
+      "environment_diagnostics_action_retained": true
+    },
+    "captures": [
+      {
+        "file": "01_default_worker_error.png",
+        "sha256": "d83e64e36244159b6eb00b9fc2679f4f04e309dc51bf0bd818000c180ed5266f",
+        "method": "Actual QWidget.grab; no overlays, crop replacement or bitmap upsampling",
+        "version": "0.3.4.post1",
+        "frozen": true,
+        "qt_platform": "offscreen",
+        "logical_size": [
+          1480,
+          920
+        ],
+        "device_pixel_ratio": 1.0
+      },
+      {
+        "file": "02_explicit_error_details.png",
+        "sha256": "4644299003477c214fa5385178dbc355f6d45b00c86641da9023c6f3b8e0f29a",
+        "method": "Actual QWidget.grab; no overlays, crop replacement or bitmap upsampling",
+        "version": "0.3.4.post1",
+        "frozen": true,
+        "qt_platform": "offscreen",
+        "logical_size": [
+          780,
+          560
+        ],
+        "device_pixel_ratio": 1.0
+      },
+      {
+        "file": "03_success_after_error.png",
+        "sha256": "aa1212f114cebaf3690f130606a894c7d008b4c9617d14ef7a3d489e2146de08",
+        "method": "Actual QWidget.grab; no overlays, crop replacement or bitmap upsampling",
+        "version": "0.3.4.post1",
+        "frozen": true,
+        "qt_platform": "offscreen",
+        "logical_size": [
+          1480,
+          920
+        ],
+        "device_pixel_ratio": 1.0
+      }
+    ],
+    "limitations": [
+      "Author automation with supplied diagnostic-save filename; not a human usability observation",
+      "POSIX and Windows paths are synthetic strings; actual platform is recorded above",
+      "No original recording analysis or scientific benchmark executed"
+    ]
+  }
+}

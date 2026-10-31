@@ -1,0 +1,235 @@
+{
+  "version": "0.3.4.post1",
+  "status": "passed",
+  "source_changes": [
+    {
+      "file": "das_workbench/__init__.py",
+      "before_sha256": "abe56ed7689ffca535961024183658cd0dd50c2e841211e70d36bb704d5d8d41",
+      "after_sha256": "ad2d9e121f9e699ccc410474471a8dcc95842e8d91d7660a1d7b635fbbca21c9"
+    },
+    {
+      "file": "das_workbench/presentation.py",
+      "before_sha256": "56d860f7d1189b3e0f4e44668ad6f3575ac86e87ad8f6a21a3f2ab6099995b3a",
+      "after_sha256": "0f6cfbfe8712894583a6d0d3c16bb138a99ec88de7cf863ca883eb73c897f238"
+    }
+  ],
+  "unchanged_application_modules": [
+    {
+      "file": "das_workbench/__main__.py",
+      "before_sha256": "0c99fe5172b880629ff4a7d2d65db0ea46a8e8bad4ac2438d01bdf0b37c85390",
+      "after_sha256": "0c99fe5172b880629ff4a7d2d65db0ea46a8e8bad4ac2438d01bdf0b37c85390"
+    },
+    {
+      "file": "das_workbench/adapter.py",
+      "before_sha256": "082660c36ed260b6d6ab641f338cc296577d7872ca473b92af821d4c0b51dd43",
+      "after_sha256": "082660c36ed260b6d6ab641f338cc296577d7872ca473b92af821d4c0b51dd43"
+    },
+    {
+      "file": "das_workbench/cache.py",
+      "before_sha256": "3afecc7461e7f027e1e8595133ba5f61b8a9715904b7faaf8ec2ddcea074d368",
+      "after_sha256": "3afecc7461e7f027e1e8595133ba5f61b8a9715904b7faaf8ec2ddcea074d368"
+    },
+    {
+      "file": "das_workbench/contracts.py",
+      "before_sha256": "e9686784352efeb4a54c4672be95229bef494a718f7c9661c192a4efaafd0798",
+      "after_sha256": "e9686784352efeb4a54c4672be95229bef494a718f7c9661c192a4efaafd0798"
+    },
+    {
+      "file": "das_workbench/diagnostics.py",
+      "before_sha256": "382d2b1a67ea63bfcfdd8b3c242dc862adb9955bfa4cfb47499c662d9ec26375",
+      "after_sha256": "382d2b1a67ea63bfcfdd8b3c242dc862adb9955bfa4cfb47499c662d9ec26375"
+    },
+    {
+      "file": "das_workbench/engine.py",
+      "before_sha256": "871fc512f7118fa635f052d1039670e5f3b10ac77119b1e9ab0fbec5c3f5e2a3",
+      "after_sha256": "871fc512f7118fa635f052d1039670e5f3b10ac77119b1e9ab0fbec5c3f5e2a3"
+    },
+    {
+      "file": "das_workbench/exporter.py",
+      "before_sha256": "aee87c52a2ffb892907abd4fae2139a04da59bcb305e7507c862f743fad1d146",
+      "after_sha256": "aee87c52a2ffb892907abd4fae2139a04da59bcb305e7507c862f743fad1d146"
+    },
+    {
+      "file": "das_workbench/fixtures.py",
+      "before_sha256": "69a211e80ac8d0d29c95f4b200159f87ad26c784266c03114a6699463518ae5c",
+      "after_sha256": "69a211e80ac8d0d29c95f4b200159f87ad26c784266c03114a6699463518ae5c"
+    },
+    {
+      "file": "das_workbench/native.py",
+      "before_sha256": "f9a0ee324d3758a4c0250d9729d9ef69d0099c6633cf569985ac5174c42dc167",
+      "after_sha256": "f9a0ee324d3758a4c0250d9729d9ef69d0099c6633cf569985ac5174c42dc167"
+    },
+    {
+      "file": "das_workbench/overview.py",
+      "before_sha256": "b1775e4d71540ff26f513a599a6ce8fd696ddb94ebecab1f4edab374ead43afa",
+      "after_sha256": "b1775e4d71540ff26f513a599a6ce8fd696ddb94ebecab1f4edab374ead43afa"
+    },
+    {
+      "file": "das_workbench/overview_evidence.py",
+      "before_sha256": "1f5f30ea1618ca2d0b4c097cc1239301cc4fcd689dda9421310c75e13618acdc",
+      "after_sha256": "1f5f30ea1618ca2d0b4c097cc1239301cc4fcd689dda9421310c75e13618acdc"
+    },
+    {
+      "file": "das_workbench/overview_jobs.py",
+      "before_sha256": "3b58d485013df12b51df3ac71bc2b9606b5a0b7af907905b64b1246411262261",
+      "after_sha256": "3b58d485013df12b51df3ac71bc2b9606b5a0b7af907905b64b1246411262261"
+    },
+    {
+      "file": "das_workbench/project.py",
+      "before_sha256": "53ab47c6a643c740051e85f5831150d38a71887305db2f1e9b5476a05243057a",
+      "after_sha256": "53ab47c6a643c740051e85f5831150d38a71887305db2f1e9b5476a05243057a"
+    },
+    {
+      "file": "das_workbench/public_engine.py",
+      "before_sha256": "d2f10cfbce2432e9043d0c189823b56a58281384f31ce3c744b70a91b93bc69a",
+      "after_sha256": "d2f10cfbce2432e9043d0c189823b56a58281384f31ce3c744b70a91b93bc69a"
+    },
+    {
+      "file": "das_workbench/public_figures.py",
+      "before_sha256": "31f4b099adb03321f53ee614d061463043bf5ff6a0f04d080c209c52d554d7d1",
+      "after_sha256": "31f4b099adb03321f53ee614d061463043bf5ff6a0f04d080c209c52d554d7d1"
+    },
+    {
+      "file": "das_workbench/public_selection.py",
+      "before_sha256": "baccf2cb6e765f345ec08aed7a3c6e836b0a467074b4f715cc077a1feed196cc",
+      "after_sha256": "baccf2cb6e765f345ec08aed7a3c6e836b0a467074b4f715cc077a1feed196cc"
+    },
+    {
+      "file": "das_workbench/public_ui.py",
+      "before_sha256": "64320d87cfee50c97c85e6cb965ab191db9fd8f867b784035e9c1baa84fa915c",
+      "after_sha256": "64320d87cfee50c97c85e6cb965ab191db9fd8f867b784035e9c1baa84fa915c"
+    },
+    {
+      "file": "das_workbench/public_workflow.py",
+      "before_sha256": "cd57e057e4c0d9796df539ed72e696b27137cc80b349acf5cfc3a735c13e0a13",
+      "after_sha256": "cd57e057e4c0d9796df539ed72e696b27137cc80b349acf5cfc3a735c13e0a13"
+    },
+    {
+      "file": "das_workbench/science.py",
+      "before_sha256": "f24874517d965ba6e1c83f22d42ddc3b4857a54098d0eca9cde03db479ad8589",
+      "after_sha256": "f24874517d965ba6e1c83f22d42ddc3b4857a54098d0eca9cde03db479ad8589"
+    },
+    {
+      "file": "das_workbench/selection.py",
+      "before_sha256": "c58de7d0f4a693bb03ddd5ebe51035cd3060762b96f3f2993cb96c6749467e5f",
+      "after_sha256": "c58de7d0f4a693bb03ddd5ebe51035cd3060762b96f3f2993cb96c6749467e5f"
+    },
+    {
+      "file": "das_workbench/ui.py",
+      "before_sha256": "cb006880d936326b3674eddde97e45549fd31981abe90ac8d51fdbaf6f64e98d",
+      "after_sha256": "cb006880d936326b3674eddde97e45549fd31981abe90ac8d51fdbaf6f64e98d"
+    },
+    {
+      "file": "das_workbench/worker.py",
+      "before_sha256": "af8077c1d7c16f8a02d839f68c81d16030b063ca8505b67458526f3664620da8",
+      "after_sha256": "af8077c1d7c16f8a02d839f68c81d16030b063ca8505b67458526f3664620da8"
+    }
+  ],
+  "saved_example_integrity_checks": [
+    {
+      "folder": "lake_zurich",
+      "original_app_version": "0.3.3",
+      "numeric_sha256": "8ab3dde95266419505953fc38cdf871bfc6dc805b9b4b8a2598e4a39a64bd206",
+      "recipe_sha256": "0afc25ae012a6d914692112b3d9321a31c57ff1bb6e288160a56ca161a8ebeb4",
+      "scope_sha256": "3c2fcdb8092e5398d651a1536fafed3fb1fbef08d9fc274764d95f295fc20852",
+      "historical_validation_status": "passed",
+      "checks": 68,
+      "fresh_check": "Saved numeric/recipe/scope and validation-sidecar integrity only"
+    },
+    {
+      "folder": "lake_zurich/overview",
+      "original_app_version": "0.3.3",
+      "numeric_sha256": "8ab3dde95266419505953fc38cdf871bfc6dc805b9b4b8a2598e4a39a64bd206",
+      "recipe_sha256": "0afc25ae012a6d914692112b3d9321a31c57ff1bb6e288160a56ca161a8ebeb4",
+      "scope_sha256": "3c2fcdb8092e5398d651a1536fafed3fb1fbef08d9fc274764d95f295fc20852",
+      "historical_validation_status": "passed",
+      "checks": 68,
+      "fresh_check": "Saved numeric/recipe/scope and validation-sidecar integrity only"
+    },
+    {
+      "folder": "mediterranean",
+      "original_app_version": "0.3.3",
+      "numeric_sha256": "5e08874e4d8a04944ade86dc455a391547437d678d03b15de6696379c33f5f78",
+      "recipe_sha256": "817f457949c8187d5d493ff53deb7b36d3c43e0ed8a3386e32967bc41fb765a1",
+      "scope_sha256": "c87baaa9ebe12dc80438738fcbd8d7b6f2cdb31f8c97ee54c51c005a39c119c6",
+      "historical_validation_status": "passed",
+      "checks": 25,
+      "fresh_check": "Saved numeric/recipe/scope and validation-sidecar integrity only"
+    },
+    {
+      "folder": "mediterranean/overview",
+      "original_app_version": "0.3.3",
+      "numeric_sha256": "5e08874e4d8a04944ade86dc455a391547437d678d03b15de6696379c33f5f78",
+      "recipe_sha256": "817f457949c8187d5d493ff53deb7b36d3c43e0ed8a3386e32967bc41fb765a1",
+      "scope_sha256": "c87baaa9ebe12dc80438738fcbd8d7b6f2cdb31f8c97ee54c51c005a39c119c6",
+      "historical_validation_status": "passed",
+      "checks": 25,
+      "fresh_check": "Saved numeric/recipe/scope and validation-sidecar integrity only"
+    },
+    {
+      "folder": "mediterranean_window_comparison",
+      "original_app_version": "0.3.3",
+      "numeric_sha256": "1c4a3fac84de8e6b92610067deeabcc173dd2574f2043c9cb730d2903b60b745",
+      "recipe_sha256": "59a7da49d3ba089251c12c274e96ebaaced136c6783502650cbdba2aa877a642",
+      "scope_sha256": "44b07a1a29d18c930c151f7393aaf9806d359f68d9585483827e7724f5113bcd",
+      "historical_validation_status": "passed",
+      "checks": 46,
+      "fresh_check": "Saved numeric/recipe/scope and validation-sidecar integrity only"
+    },
+    {
+      "folder": "svalbard",
+      "original_app_version": "0.3.3",
+      "numeric_sha256": "a02491c48ef7e078c2d193964d28bf691e1204d9bbc7886fb774688d5378814e",
+      "recipe_sha256": "0d8896278fb37707b2991f8a524eee2c4938fdc879fa6a1c09f48aa43f31205e",
+      "scope_sha256": "29239be616ce96a8782d174af29573cf75ff5c24bbed10ed499d7c919c3247bb",
+      "historical_validation_status": "passed",
+      "checks": 26,
+      "fresh_check": "Saved numeric/recipe/scope and validation-sidecar integrity only"
+    },
+    {
+      "folder": "svalbard/overview",
+      "original_app_version": "0.3.3",
+      "numeric_sha256": "a02491c48ef7e078c2d193964d28bf691e1204d9bbc7886fb774688d5378814e",
+      "recipe_sha256": "0d8896278fb37707b2991f8a524eee2c4938fdc879fa6a1c09f48aa43f31205e",
+      "scope_sha256": "29239be616ce96a8782d174af29573cf75ff5c24bbed10ed499d7c919c3247bb",
+      "historical_validation_status": "passed",
+      "checks": 26,
+      "fresh_check": "Saved numeric/recipe/scope and validation-sidecar integrity only"
+    },
+    {
+      "folder": "trondheim",
+      "original_app_version": "0.3.3",
+      "numeric_sha256": "1b5c5a63868efd42761ebffd820c64291702dff6a1e45853abff60408a1a5d2e",
+      "recipe_sha256": "df61ff18915e35599566a443d621bfc872fc8bca1464d6e82cd5debf6e948247",
+      "scope_sha256": "b83d68745cec0af6beebba564436e051052f3be6c50b7b06ebddd816e4899fdd",
+      "historical_validation_status": "passed",
+      "checks": 25,
+      "fresh_check": "Saved numeric/recipe/scope and validation-sidecar integrity only"
+    },
+    {
+      "folder": "trondheim/overview",
+      "original_app_version": "0.3.3",
+      "numeric_sha256": "1b5c5a63868efd42761ebffd820c64291702dff6a1e45853abff60408a1a5d2e",
+      "recipe_sha256": "df61ff18915e35599566a443d621bfc872fc8bca1464d6e82cd5debf6e948247",
+      "scope_sha256": "b83d68745cec0af6beebba564436e051052f3be6c50b7b06ebddd816e4899fdd",
+      "historical_validation_status": "passed",
+      "checks": 25,
+      "fresh_check": "Saved numeric/recipe/scope and validation-sidecar integrity only"
+    }
+  ],
+  "app": {
+    "bundle_version": "30402",
+    "short_version": "0.3.4",
+    "executable_sha256": "a45b71c93c6a35523f99edd19f5f5f929733670cacafc25e08ff1417cc91dd64",
+    "codesign_verify": "passed",
+    "notarization": "not notarized",
+    "unused_virtual_keyboard_entries": [],
+    "qt_notices_present": true
+  },
+  "limits": [
+    "This audit is not a fresh numerical recalculation of the real recordings.",
+    "Historical example sidecars keep their original scope and dates.",
+    "Codesign verification is not Apple notarization or clean-machine installation.",
+    "Interactive desktop evidence must be reported separately."
+  ]
+}

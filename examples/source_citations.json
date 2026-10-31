@@ -1,0 +1,144 @@
+[
+  {
+    "record": "15008561",
+    "title": "Distributed Acoustic Sensing fin whale labeled dataset for level estimations",
+    "doi": "10.5281/zenodo.15008561",
+    "publication_date": "2025-03-11",
+    "creators": [
+      {
+        "name": "Bouffaut, L\u00e9a",
+        "affiliation": "Cornell University",
+        "orcid": "0000-0002-5318-294X"
+      },
+      {
+        "name": "Goestchel, Quentin",
+        "affiliation": "University of Washington",
+        "orcid": "0000-0003-2895-1089"
+      },
+      {
+        "name": "Sladen, Anthony",
+        "affiliation": "CNRS",
+        "orcid": "0000-0003-4126-0020"
+      },
+      {
+        "name": "Hartog, Arthur",
+        "affiliation": "Fosina",
+        "orcid": "0000-0001-6930-4561"
+      },
+      {
+        "name": "Klinck, Holger",
+        "affiliation": "Cornell University",
+        "orcid": "0000-0003-1078-7268"
+      }
+    ],
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "url": "https://zenodo.org/records/15008561"
+  },
+  {
+    "record": "5823343",
+    "title": "DAS4Whale: Svalbard distributed acoustic sensing dataset for baleen whale monitoring",
+    "doi": "10.5281/zenodo.5823343",
+    "publication_date": "2022-01-10",
+    "creators": [
+      {
+        "name": "L\u00e9a Bouffaut",
+        "affiliation": "K. Lisa Yang Center for Conservation Bioacoustics",
+        "orcid": "0000-0002-5318-294X"
+      },
+      {
+        "name": "Kittinat Taweesintananon",
+        "affiliation": "NTNU",
+        "orcid": "0000-0002-2700-8366"
+      }
+    ],
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "url": "https://zenodo.org/records/5823343"
+  },
+  {
+    "record": "18851481",
+    "title": "Dataset for the paper \"Tracking ships with submarine cables: Unsupervised arrival time detection and event localization using distributed acoustic sensing\"",
+    "doi": "10.5281/zenodo.18851481",
+    "publication_date": "2026-03-17",
+    "creators": [
+      {
+        "name": "Thiem, Lukas",
+        "affiliation": "Norwegian University of Science and Technology",
+        "orcid": "0009-0003-1418-4963"
+      },
+      {
+        "name": "Vaupel, Melvin",
+        "affiliation": "Norwegian University of Science and Technology",
+        "orcid": "0000-0002-8076-5382"
+      },
+      {
+        "name": "Wienecke, Susann",
+        "affiliation": "Equinor ASA",
+        "orcid": "0009-0001-4882-0054"
+      },
+      {
+        "name": "Eidsvik, Jo",
+        "affiliation": "NTNU",
+        "orcid": "0000-0002-9757-9252"
+      },
+      {
+        "name": "Taweesintananon, Kittinat",
+        "affiliation": "PTT Exploration and Production Public Company Ltd",
+        "orcid": "0000-0002-2700-8366"
+      },
+      {
+        "name": "Landr\u00f8, Martin",
+        "affiliation": "Norwegian University of Science and Technology",
+        "orcid": "0000-0003-4556-2667"
+      }
+    ],
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "url": "https://zenodo.org/records/18851481"
+  },
+  {
+    "record": "7886409",
+    "title": "Test experiments with distributed acoustic sensing and hydrophone arrays for locating underwater sounds.",
+    "doi": "10.5281/zenodo.7886409",
+    "publication_date": "2023-06-08",
+    "creators": [
+      {
+        "name": "J\u00f6rg Rychen",
+        "affiliation": "Department of Information Technology and Electrical Engineering, ETH Zurich, Zurich, Switzerland",
+        "orcid": "0000-0002-3302-0193"
+      },
+      {
+        "name": "Patrick Paitz",
+        "affiliation": "Department of Earth Sciences, ETH Zurich, Zurich, Switzerland",
+        "orcid": "0000-0001-7464-224X"
+      },
+      {
+        "name": "Pascal Edme",
+        "affiliation": "Department of Earth Sciences, ETH Zurich, Zurich, Switzerland",
+        "orcid": "0000-0002-3041-0559"
+      },
+      {
+        "name": "Krystyna Smolinski",
+        "affiliation": "Department of Earth Sciences, ETH Zurich, Zurich, Switzerland"
+      },
+      {
+        "name": "Joeri Brackenhoff",
+        "affiliation": "Department of Earth Sciences, ETH Zurich, Zurich, Switzerland",
+        "orcid": "0000-0001-7697-1194"
+      },
+      {
+        "name": "Andreas Fichtner",
+        "affiliation": "Department of Earth Sciences, ETH Zurich, Zurich, Switzerland",
+        "orcid": "0000-0003-3090-963X"
+      }
+    ],
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "url": "https://zenodo.org/records/7886409"
+  }
+]

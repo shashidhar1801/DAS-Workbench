@@ -1,0 +1,100 @@
+[
+  {
+    "file": "docs/screenshots/svalbard_selection.png",
+    "sha256": "6c3c4500fc2bef4e504f820e2691c12bc2cf60f0032d28bc8244948395512807",
+    "capture_version": "0.3.3",
+    "capture_origin": "reports/gui/F02/06_workflow_selection.png",
+    "kind": "Historical author-run packaged-GUI capture; not newly captured for this guide"
+  },
+  {
+    "file": "docs/screenshots/svalbard_metadata.png",
+    "sha256": "b7e601bdee8b88e5c6c1ba4bb5d073654dd8468f76c7af836355408987a144ae",
+    "capture_version": "0.3.3",
+    "capture_origin": "reports/gui/F02/01_metadata.png",
+    "kind": "Historical author-run packaged-GUI capture; not newly captured for this guide"
+  },
+  {
+    "file": "docs/screenshots/verification.png",
+    "sha256": "92113002ec05fe2c5053cc36ddc98f10dd37337aa4ce5daf7b4337d6b6870639",
+    "capture_version": "0.3.3",
+    "capture_origin": "reports/gui/F02/07_workflow_verification.png",
+    "kind": "Historical author-run packaged-GUI capture; not newly captured for this guide"
+  },
+  {
+    "file": "docs/screenshots/mediterranean.png",
+    "sha256": "75ac033d0b0fdb41a913edb8ab4cc45cf97bcb1293f9d09f1eb82032c58b62e3",
+    "capture_version": "0.3.3",
+    "capture_origin": "reports/gui/F01/05_reopened.png",
+    "kind": "Historical author-run packaged-GUI capture; not newly captured for this guide"
+  },
+  {
+    "file": "docs/screenshots/window_comparison.png",
+    "sha256": "cd4947037ad19fbc841c01b8512bcdf0215329b42d4f314b04eed39cde8c0f8d",
+    "capture_version": "0.3.3",
+    "capture_origin": "reports/gui/S01/05_reopened.png",
+    "kind": "Historical author-run packaged-GUI capture; not newly captured for this guide"
+  },
+  {
+    "file": "docs/screenshots/lake_selection.png",
+    "sha256": "4018760fca60428c0297048e5c62bfa5b1ea87dd0374e9b88fd78e97d28d5097",
+    "capture_version": "0.3.3",
+    "capture_origin": "reports/gui/F04/01_metadata.png",
+    "kind": "Historical author-run packaged-GUI capture; not newly captured for this guide"
+  },
+  {
+    "file": "docs/screenshots/lake_result.png",
+    "sha256": "6a1d79d54695bb3ea3e5a6858b90c828fdce7f87dd5cf1336e0aebc0ec6749c1",
+    "capture_version": "0.3.3",
+    "capture_origin": "reports/gui/F04/05_reopened.png",
+    "kind": "Historical author-run packaged-GUI capture; not newly captured for this guide"
+  },
+  {
+    "file": "docs/screenshots/trondheim.png",
+    "sha256": "ad5c8b24199ca6a9bfc0e9992a2adbe6a7b5587ac79a5e02f0bc5cd4833a3a8c",
+    "capture_version": "0.3.3",
+    "capture_origin": "reports/gui/F03/05_reopened.png",
+    "kind": "Historical author-run packaged-GUI capture; not newly captured for this guide"
+  },
+  {
+    "file": "docs/screenshots/ooi_catalogue.png",
+    "sha256": "af0d48e8904b359cb1079768fb46751b661476f4f0a9c7aed145a7469a0cf921",
+    "capture_version": "0.3.4 OOI instrumentation edition 1",
+    "capture_origin": "gui_evidence/01_catalogue_960_two_runs.png",
+    "kind": "Historical author-run packaged-GUI capture; no new benchmark timing or utilization claim"
+  },
+  {
+    "file": "docs/screenshots/ooi_plan.png",
+    "sha256": "ed0b789a0ea802ff8b3d65e42e039b1a457f9ce3d6388455008e46c91aa69177",
+    "capture_version": "0.3.4 OOI instrumentation edition 1",
+    "capture_origin": "gui_evidence/02_plan_cpu.png",
+    "kind": "Historical author-run packaged-GUI capture; no new benchmark timing or utilization claim"
+  },
+  {
+    "file": "docs/screenshots/ooi_spectrum.png",
+    "sha256": "65ce547ce1a6f2b3adf585208c75c5de504943e2a029c0079fab8757e0dcf428",
+    "capture_version": "0.3.4 OOI instrumentation edition 1",
+    "capture_origin": "gui_evidence/03_spectrogram_mlx.png",
+    "kind": "Historical author-run packaged-GUI capture; no new benchmark timing or utilization claim"
+  },
+  {
+    "file": "docs/screenshots/ooi_pause.png",
+    "sha256": "59b70762c9bb9f11100ca85c7059626d56ac05dc61f0de34f7e25260d82afd50",
+    "capture_version": "0.3.4 OOI instrumentation edition 1",
+    "capture_origin": "gui_evidence/05_pause_acknowledged.png",
+    "kind": "Historical author-run packaged-GUI capture; no new benchmark timing or utilization claim"
+  },
+  {
+    "file": "docs/screenshots/lake_overview.png",
+    "sha256": "9832581a745c2f192ab712d9258c567ab749a13d84366ba25b0daefdb321bb29",
+    "capture_version": "0.3.3",
+    "capture_origin": "outputs/DAS_Workbench_General_Use_v0.3.3/reports/gui/F04/08_overview_reopened.png",
+    "kind": "Historical author-run packaged-GUI capture"
+  },
+  {
+    "file": "docs/screenshots/ooi_overview.png",
+    "sha256": "ce502f3886ffaf1601eb51465b76f7be56a4c314bf62fbf138e1e728065ab895",
+    "capture_version": "0.2.1",
+    "capture_origin": "outputs/DAS_Workbench/reports/v0.2.1/packaged_release/packaged_real_overview.png",
+    "kind": "Historical author-run packaged-GUI capture"
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "distribution": "numpy",
+    "version": "2.5.4",
+    "copied_license_files": [
+      "packaging/third_party_licenses/numpy/LICENSE.txt",
+      "packaging/third_party_licenses/numpy/LICENSE.txt",
+      "packaging/third_party_licenses/numpy/COPYING",
+      "packaging/third_party_licenses/numpy/LICENSE",
+      "packaging/third_party_licenses/numpy/dragon4_LICENSE.txt",
+      "packaging/third_party_licenses/numpy/LICENSE.md",
+      "packaging/third_party_licenses/numpy/LICENSE",
+      "packaging/third_party_licenses/numpy/LICENSE.md",
+      "packaging/third_party_licenses/numpy/LICENSE.txt",
+      "packaging/third_party_licenses/numpy/LICENSE",
+      "packaging/third_party_licenses/numpy/LICENSE.md",
+      "packaging/third_party_licenses/numpy/LICENSE.md",
+      "packaging/third_party_licenses/numpy/LICENSE.md",
+      "packaging/third_party_licenses/numpy/LICENSE.md",
+      "packaging/third_party_licenses/numpy/LICENSE.md",
+      "packaging/third_party_licenses/numpy/LICENSE.md",
+      "packaging/third_party_licenses/numpy/LICENSE.md"
+    ]
+  },
+  {
+    "distribution": "scipy",
+    "version": "1.18.0",
+    "copied_license_files": [
+      "packaging/third_party_licenses/scipy/LICENSE.txt"
+    ]
+  },
+  {
+    "distribution": "h5py",
+    "version": "3.16.0",
+    "copied_license_files": [
+      "packaging/third_party_licenses/h5py/LICENSE",
+      "packaging/third_party_licenses/h5py/license.txt",
+      "packaging/third_party_licenses/h5py/LICENSE.txt"
+    ]
+  },
+  {
+    "distribution": "matplotlib",
+    "version": "3.11.2",
+    "copied_license_files": [
+      "packaging/third_party_licenses/matplotlib/LICENSE"
+    ]
+  },
+  {
+    "distribution": "PySide6",
+    "version": "6.12.0",
+    "copied_license_files": []
+  },
+  {
+    "distribution": "PySide6_Essentials",
+    "version": "6.12.0",
+    "copied_license_files": []
+  },
+  {
+    "distribution": "PySide6_Addons",
+    "version": "6.12.0",
+    "copied_license_files": []
+  },
+  {
+    "distribution": "shiboken6",
+    "version": "6.12.0",
+    "copied_license_files": []
+  },
+  {
+    "distribution": "pyqtgraph",
+    "version": "0.14.0",
+    "copied_license_files": [
+      "packaging/third_party_licenses/pyqtgraph/LICENSE.txt"
+    ]
+  },
+  {
+    "distribution": "mlx",
+    "version": "0.32.4",
+    "copied_license_files": [
+      "packaging/third_party_licenses/mlx/LICENSE"
+    ]
+  },
+  {
+    "distribution": "mlx-metal",
+    "version": "0.32.4",
+    "copied_license_files": [
+      "packaging/third_party_licenses/mlx-metal/LICENSE"
+    ]
+  },
+  {
+    "distribution": "psutil",
+    "version": "7.2.2",
+    "copied_license_files": [
+      "packaging/third_party_licenses/psutil/LICENSE"
+    ]
+  },
+  {
+    "distribution": "pyinstaller",
+    "version": "6.22.3",
+    "copied_license_files": [
+      "packaging/third_party_licenses/pyinstaller/COPYING.txt"
+    ]
+  }
+]

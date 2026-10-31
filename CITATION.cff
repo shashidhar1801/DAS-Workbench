@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite this software, its version, and the original datasets used. No archival DOI has been assigned."
+title: "DAS Workbench: A graphical user interface for reproducible analysis of marine distributed acoustic sensing data"
+type: software
+version: 0.3.4.post1
+license: MIT
+authors:
+  - family-names: Siddagangaiah
+    given-names: Shashidhar
+    affiliation: "Department of Systems Engineering and Naval Architecture, National Taiwan Ocean University, Keelung, Taiwan"
+    email: shashi.18j@gmail.com
+    orcid: https://orcid.org/0000-0001-7248-6538
+keywords:
+  - distributed acoustic sensing
+  - marine soundscapes
+  - graphical user interface
+  - reproducible workflows
+repository-code: https://github.com/shashidhar1801/DAS-Workbench
+url: https://github.com/shashidhar1801/DAS-Workbench
+date-released: 2026-10-31

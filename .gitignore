@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
+.DS_Store
+._*
+build/
+dist/
+local/
+*.app/
+*.h5
+*.hdf5
+*.mat
+*.zip
+*.tar.xz

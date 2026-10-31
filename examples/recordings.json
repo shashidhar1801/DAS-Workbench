@@ -1,0 +1,46 @@
+[
+  {
+    "case": "svalbard",
+    "recipe": "recipes/svalbard.json",
+    "relative_path": "5823343/20200627_192255_ch05001_to_ch07000_whale_raw_L310s.mat",
+    "sha256": "e8e91c57232a4126c8857e06fd30e25b05557ea84423e2d52bda22aaabdbedf7",
+    "record": "5823343",
+    "bytes": 3201638976,
+    "mtime_ns": 1792768788030000000,
+    "integrity": "Saved acquisition audit; size/mtime match",
+    "doi": "10.5281/zenodo.5823343"
+  },
+  {
+    "case": "mediterranean",
+    "recipe": "recipes/mediterranean.json",
+    "relative_path": "15008561/data/DAS_MedSea/data/091304.hdf5",
+    "sha256": "a430a81533be0a88da65981ecf5f0dea67d74d49fec14f32f3ce090c95607e04",
+    "record": "15008561",
+    "bytes": 38324400,
+    "mtime_ns": 1792746267180000000,
+    "integrity": "Saved acquisition audit; size/mtime match",
+    "doi": "10.5281/zenodo.15008561"
+  },
+  {
+    "case": "lake_zurich",
+    "recipe": "recipes/lake_zurich.json",
+    "relative_path": "7886409/2022-01-26--04--Whales/2022-01-26--04-46-16--Humpback.h5",
+    "sha256": "ccc1e437ab35912018c3de1a1fed5ef56789095dce515bd4658a45ea940a110d",
+    "record": "7886409",
+    "bytes": 355911896,
+    "mtime_ns": 1792749107670000000,
+    "integrity": "Saved acquisition audit; size/mtime match",
+    "doi": "10.5281/zenodo.7886409"
+  },
+  {
+    "case": "trondheim",
+    "recipe": "recipes/trondheim.json",
+    "relative_path": "18851481/Trondheim_DAS_Data/085437.hdf5",
+    "sha256": "6908a9d9d0576de02a386449a17502fbc290f5eb29ac7ed6c28116bcaf382655",
+    "record": "18851481",
+    "bytes": 238744024,
+    "mtime_ns": 1792748927370000000,
+    "integrity": "Saved acquisition audit; size/mtime match",
+    "doi": "10.5281/zenodo.18851481"
+  }
+]

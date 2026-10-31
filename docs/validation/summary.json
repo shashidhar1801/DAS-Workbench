@@ -1,0 +1,34 @@
+{
+  "version": "0.3.4.post1",
+  "prepared_date": "2026-10-31",
+  "publication": "Public repository created; consult GitHub release for published assets",
+  "tests": {
+    "tests": "102",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0",
+    "time": "7.649"
+  },
+  "application_modules_unchanged": 22,
+  "application_modules_changed": [
+    "__init__.py (version)",
+    "presentation.py (version/About text)"
+  ],
+  "saved_result_integrity_checks_passed": 9,
+  "guide_pages": 16,
+  "guide_pngs_rechecked_after_final_edit": [
+    8,
+    12
+  ],
+  "other_14_pages": "PNG SHA256 identical to visually reviewed prior render",
+  "relative_markdown_links": "passed",
+  "fresh_interactive_package_workflow": "Launch, About (0.3.4.post1), and native workspace confirmed. Saved-result selection attempted; subsequent desktop observation timed out, so GUI reopening is not marked passed.",
+  "independent_clean_machine_installation": "not executed",
+  "notarization": "not notarized",
+  "full_real_data_benchmark": "historical; not rerun for packaging revision",
+  "app_archive_extraction_and_strict_signature_recheck": "passed",
+  "example_zip_crc_check": "passed",
+  "embedded_guide_screenshots": 11,
+  "additional_provenance_recorded_screenshots": 3,
+  "repository_url": "https://github.com/shashidhar1801/DAS-Workbench"
+}

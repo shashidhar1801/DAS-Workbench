@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "das-workbench"
+version = "0.3.4.post1"
+description = "Local scientific processing of processed-phase DAS recordings"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.12"
+dependencies = ["numpy==2.5.4", "scipy==1.18.0", "h5py==3.16.0", "matplotlib==3.11.2", "PySide6==6.12.0", "pyqtgraph==0.14.0", "psutil==7.2.2"]
+
+[project.optional-dependencies]
+metal = ["mlx==0.32.4; platform_system=='Darwin' and platform_machine=='arm64'"]
+test = ["pytest==9.1.1", "pytest-qt==4.5.0"]
+build = ["pyinstaller==6.22.3"]
+
+[project.scripts]
+das-workbench = "das_workbench.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["das_workbench*", "validation*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+qt_api = "pyside6"
