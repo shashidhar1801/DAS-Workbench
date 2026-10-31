@@ -1,0 +1,68 @@
+name: One-time prepared-source import
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/import-prepared-source.yml
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Verify prepared archive and publish source tree
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REPOSITORY" = "shashidhar1801/DAS-Workbench"
+          gh auth setup-git
+          git clone --depth 1 --branch main "https://github.com/$GITHUB_REPOSITORY.git" repository
+          cd repository
+          echo "2d692ca12e8a66ecde2466ceb96cb1e57510e254f5c514d2195c968cc1f12c36  DAS_Workbench_0.3.4.post1_Source.zip" | sha256sum -c -
+          cp DAS_Workbench_0.3.4.post1_Source.zip "$RUNNER_TEMP/DAS_Workbench_0.3.4.post1_Source.zip"
+          python3 - <<'PYCODE'
+          from pathlib import Path, PurePosixPath
+          import zipfile
+          prefix='DAS-Workbench-0.3.4.post1/'
+          with zipfile.ZipFile('DAS_Workbench_0.3.4.post1_Source.zip') as z:
+              for item in z.infolist():
+                  assert item.filename.startswith(prefix)
+                  name=item.filename[len(prefix):]
+                  if not name or item.is_dir(): continue
+                  path=PurePosixPath(name)
+                  assert not path.is_absolute() and '..' not in path.parts
+                  assert path.parts[0] not in {'.git','.github'}
+                  target=Path(*path.parts)
+                  target.parent.mkdir(parents=True,exist_ok=True)
+                  target.write_bytes(z.read(item))
+          PYCODE
+          git rm DAS_Workbench_0.3.4.post1_Source.zip
+          git add .
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Import checksum-verified DAS Workbench 0.3.4.post1 source and documentation'
+          git push origin HEAD:main
+          git tag v0.3.4.post1
+          git push origin v0.3.4.post1
+          gh release create v0.3.4.post1 --repo "$GITHUB_REPOSITORY" --verify-tag --draft --title 'DAS Workbench 0.3.4.post1' --notes-file RELEASE_NOTES.md
+          gh release upload v0.3.4.post1 "$RUNNER_TEMP/DAS_Workbench_0.3.4.post1_Source.zip" --repo "$GITHUB_REPOSITORY"
+      - name: Retain exact upstream corresponding-source archives
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd repository
+          python3 - <<'PYCODE'
+          import hashlib,json,os,urllib.request
+          from pathlib import Path
+          root=Path(os.environ['RUNNER_TEMP'])
+          for item in json.loads(Path('packaging/upstream_sources.json').read_text()):
+              destination=root/item['file']
+              urllib.request.urlretrieve(item['url'],destination)
+              assert destination.stat().st_size==item['bytes']
+              h=hashlib.sha256()
+              with destination.open('rb') as f:
+                  for block in iter(lambda:f.read(8388608),b''):h.update(block)
+              assert h.hexdigest()==item['local_sha256']
+          PYCODE
+          gh release upload v0.3.4.post1 "$RUNNER_TEMP/qt-everywhere-src-6.12.0.tar.xz" "$RUNNER_TEMP/pyside-setup-everywhere-src-6.12.0.tar.xz" --repo "$GITHUB_REPOSITORY"
